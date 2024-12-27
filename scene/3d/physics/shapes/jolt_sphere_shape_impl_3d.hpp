@@ -1,6 +1,6 @@
 #pragma once
 
-#include "shapes/jolt_shape_impl_3d.hpp"
+#include "jolt_shape_impl_3d.hpp"
 
 class JoltSphereShapeImpl3D final : public JoltShapeImpl3D {
 public:

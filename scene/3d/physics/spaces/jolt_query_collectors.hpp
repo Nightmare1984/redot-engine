@@ -1,6 +1,6 @@
 #pragma once
 
-#include "spaces/jolt_space_3d.hpp"
+#include "jolt_space_3d.hpp"
 
 template<typename TBase, int32_t TInlineCapacity>
 class JoltQueryCollectorAll final : public TBase {

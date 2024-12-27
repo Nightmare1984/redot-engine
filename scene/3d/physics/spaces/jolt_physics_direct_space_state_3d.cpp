@@ -7,10 +7,10 @@
 #include "servers/jolt_project_settings.hpp"
 #include "shapes/jolt_custom_motion_shape.hpp"
 #include "shapes/jolt_shape_impl_3d.hpp"
-#include "spaces/jolt_motion_filter_3d.hpp"
-#include "spaces/jolt_query_collectors.hpp"
-#include "spaces/jolt_query_filter_3d.hpp"
-#include "spaces/jolt_space_3d.hpp"
+#include "jolt_motion_filter_3d.hpp"
+#include "jolt_query_collectors.hpp"
+#include "jolt_query_filter_3d.hpp"
+#include "jolt_space_3d.hpp"
 
 JoltPhysicsDirectSpaceState3D::JoltPhysicsDirectSpaceState3D(JoltSpace3D* p_space)
 	: space(p_space) { }

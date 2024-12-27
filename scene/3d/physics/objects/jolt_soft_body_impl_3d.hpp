@@ -1,6 +1,6 @@
 #pragma once
 
-#include "objects/jolt_object_impl_3d.hpp"
+#include "jolt_object_impl_3d.hpp"
 
 class JoltSpace3D;
 

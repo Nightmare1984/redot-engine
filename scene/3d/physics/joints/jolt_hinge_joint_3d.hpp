@@ -1,6 +1,6 @@
 #pragma once
 
-#include "joints/jolt_joint_3d.hpp"
+#include "jolt_joint_3d.hpp"
 #include "servers/jolt_physics_server_3d.hpp"
 
 class JoltHingeJoint3D final : public JoltJoint3D {

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "objects/jolt_shaped_object_impl_3d.hpp"
+#include "jolt_shaped_object_impl_3d.hpp"
 
 class JoltBodyImpl3D;
 class JoltSoftBodyImpl3D;

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "spaces/jolt_debug_renderer_3d.hpp"
+#include "jolt_debug_renderer_3d.hpp"
 
 class JoltDebugGeometry3D final : public GeometryInstance3D {
 	GDCLASS_QUIET(JoltDebugGeometry3D, GeometryInstance3D)

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "spaces/jolt_body_accessor_3d.hpp"
+#include "jolt_body_accessor_3d.hpp"
 
 class JoltAreaImpl3D;
 class JoltContactListener3D;

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "objects/jolt_physics_direct_body_state_3d.hpp"
-#include "objects/jolt_shaped_object_impl_3d.hpp"
+#include "jolt_physics_direct_body_state_3d.hpp"
+#include "jolt_shaped_object_impl_3d.hpp"
 
 class JoltAreaImpl3D;
 class JoltJointImpl3D;

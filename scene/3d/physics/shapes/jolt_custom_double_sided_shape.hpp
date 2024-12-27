@@ -1,7 +1,7 @@
 #pragma once
 
-#include "shapes/jolt_custom_decorated_shape.hpp"
-#include "shapes/jolt_custom_shape_type.hpp"
+#include "jolt_custom_decorated_shape.hpp"
+#include "jolt_custom_shape_type.hpp"
 
 class JoltCustomDoubleSidedShapeSettings final : public JoltCustomDecoratedShapeSettings {
 public:

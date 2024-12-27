@@ -7,10 +7,10 @@
 #include "servers/jolt_project_settings.hpp"
 #include "shapes/jolt_custom_shape_type.hpp"
 #include "shapes/jolt_shape_impl_3d.hpp"
-#include "spaces/jolt_contact_listener_3d.hpp"
-#include "spaces/jolt_layer_mapper.hpp"
-#include "spaces/jolt_physics_direct_space_state_3d.hpp"
-#include "spaces/jolt_temp_allocator.hpp"
+#include "jolt_contact_listener_3d.hpp"
+#include "jolt_layer_mapper.hpp"
+#include "jolt_physics_direct_space_state_3d.hpp"
+#include "jolt_temp_allocator.hpp"
 
 namespace {
 

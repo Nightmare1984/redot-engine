@@ -4,7 +4,7 @@
 #include "objects/jolt_body_impl_3d.hpp"
 #include "objects/jolt_soft_body_impl_3d.hpp"
 #include "servers/jolt_project_settings.hpp"
-#include "spaces/jolt_space_3d.hpp"
+#include "jolt_space_3d.hpp"
 
 void JoltContactListener3D::listen_for(JoltShapedObjectImpl3D* p_object) {
 	listening_for.insert(p_object->get_jolt_id());

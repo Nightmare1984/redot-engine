@@ -2,11 +2,11 @@
 
 #ifdef GDJ_CONFIG_EDITOR
 
-#include "joints/jolt_cone_twist_joint_3d.hpp"
-#include "joints/jolt_generic_6dof_joint.hpp"
-#include "joints/jolt_hinge_joint_3d.hpp"
-#include "joints/jolt_pin_joint_3d.hpp"
-#include "joints/jolt_slider_joint_3d.hpp"
+#include "jolt_cone_twist_joint_3d.hpp"
+#include "jolt_generic_6dof_joint.hpp"
+#include "jolt_hinge_joint_3d.hpp"
+#include "jolt_pin_joint_3d.hpp"
+#include "jolt_slider_joint_3d.hpp"
 
 namespace {
 

@@ -1,9 +1,9 @@
 #include "jolt_query_filter_3d.hpp"
 
 #include "objects/jolt_object_impl_3d.hpp"
-#include "spaces/jolt_broad_phase_layer.hpp"
-#include "spaces/jolt_physics_direct_space_state_3d.hpp"
-#include "spaces/jolt_space_3d.hpp"
+#include "jolt_broad_phase_layer.hpp"
+#include "jolt_physics_direct_space_state_3d.hpp"
+#include "jolt_space_3d.hpp"
 
 JoltQueryFilter3D::JoltQueryFilter3D(
 	const JoltPhysicsDirectSpaceState3D& p_space_state,

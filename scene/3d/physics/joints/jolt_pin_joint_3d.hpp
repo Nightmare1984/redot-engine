@@ -1,6 +1,6 @@
 #pragma once
 
-#include "joints/jolt_joint_3d.hpp"
+#include "jolt_joint_3d.hpp"
 
 class JoltPinJoint3D final : public JoltJoint3D {
 	GDCLASS_QUIET(JoltPinJoint3D, JoltJoint3D)
