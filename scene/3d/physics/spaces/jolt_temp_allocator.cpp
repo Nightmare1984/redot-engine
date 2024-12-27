@@ -1,6 +1,6 @@
 #include "jolt_temp_allocator.hpp"
 
-#include "servers/jolt_project_settings.hpp"
+#include "scene/3d/physics/servers/jolt_project_settings.hpp"
 
 JoltTempAllocator::JoltTempAllocator()
 	: capacity((uint64_t)JoltProjectSettings::get_max_temp_memory_b())

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "misc/error_macros.hpp"
+#include "scene/3d/physics/misc/error_macros.hpp"
 
 template<typename TElement, typename TAllocator = std::allocator<TElement>>
 class LocalVector {

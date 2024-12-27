@@ -1,7 +1,7 @@
 #pragma once
 
-#include "containers/inline_allocator.hpp"
-#include "containers/local_vector.hpp"
+#include "inline_allocator.hpp"
+#include "local_vector.hpp"
 
 template<typename TElement, int32_t TCapacity>
 class InlineVector final : public LocalVector<TElement, InlineAllocator<TElement, TCapacity>> {

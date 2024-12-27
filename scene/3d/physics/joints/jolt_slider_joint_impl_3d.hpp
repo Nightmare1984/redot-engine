@@ -1,7 +1,7 @@
 #pragma once
 
 #include "jolt_joint_impl_3d.hpp"
-#include "servers/jolt_physics_server_3d.hpp"
+#include "scene/3d/physics/servers/jolt_physics_server_3d.hpp"
 
 class JoltSliderJointImpl3D final : public JoltJointImpl3D {
 	using Parameter = PhysicsServer3D::SliderJointParam;

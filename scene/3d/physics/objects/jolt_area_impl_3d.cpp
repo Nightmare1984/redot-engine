@@ -3,9 +3,9 @@
 #include "jolt_body_impl_3d.hpp"
 #include "jolt_group_filter.hpp"
 #include "jolt_soft_body_impl_3d.hpp"
-#include "servers/jolt_project_settings.hpp"
-#include "spaces/jolt_broad_phase_layer.hpp"
-#include "spaces/jolt_space_3d.hpp"
+#include "scene/3d/physics/servers/jolt_project_settings.hpp"
+#include "scene/3d/physics/spaces/jolt_broad_phase_layer.hpp"
+#include "scene/3d/physics/spaces/jolt_space_3d.hpp"
 
 namespace {
 

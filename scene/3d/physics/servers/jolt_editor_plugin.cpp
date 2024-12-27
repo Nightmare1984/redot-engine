@@ -2,7 +2,7 @@
 
 #ifdef GDJ_CONFIG_EDITOR
 
-#include "servers/jolt_physics_server_3d.hpp"
+#include "jolt_physics_server_3d.hpp"
 
 void JoltEditorPlugin::_enter_tree() {
 	EditorInterface* editor_interface = get_editor_interface();

@@ -2,7 +2,7 @@
 
 #ifdef GDJ_CONFIG_EDITOR
 
-#include "joints/jolt_joint_gizmo_plugin_3d.hpp"
+#include "scene/3d/physics/joints/jolt_joint_gizmo_plugin_3d.hpp"
 
 class JoltEditorPlugin final : public EditorPlugin {
 	GDCLASS_QUIET(JoltEditorPlugin, EditorPlugin)

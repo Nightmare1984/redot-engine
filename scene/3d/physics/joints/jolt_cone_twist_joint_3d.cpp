@@ -1,6 +1,6 @@
 #include "jolt_cone_twist_joint_3d.hpp"
 
-#include "servers/jolt_physics_server_3d.hpp"
+#include "scene/3d/physics/servers/jolt_physics_server_3d.hpp"
 
 namespace {
 

@@ -1,8 +1,8 @@
 #include "jolt_shaped_object_impl_3d.hpp"
 
-#include "shapes/jolt_custom_double_sided_shape.hpp"
-#include "shapes/jolt_shape_impl_3d.hpp"
-#include "spaces/jolt_space_3d.hpp"
+#include "scene/3d/physics/shapes/jolt_custom_double_sided_shape.hpp"
+#include "scene/3d/physics/shapes/jolt_shape_impl_3d.hpp"
+#include "scene/3d/physics/spaces/jolt_space_3d.hpp"
 
 JoltShapedObjectImpl3D::JoltShapedObjectImpl3D(ObjectType p_object_type)
 	: JoltObjectImpl3D(p_object_type) {

@@ -1,6 +1,6 @@
 #include "jolt_layer_mapper.hpp"
 
-#include "servers/jolt_project_settings.hpp"
+#include "scene/3d/physics/servers/jolt_project_settings.hpp"
 #include "jolt_broad_phase_layer.hpp"
 
 namespace {

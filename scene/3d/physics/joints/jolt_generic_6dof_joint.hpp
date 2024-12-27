@@ -1,7 +1,7 @@
 #pragma once
 
 #include "jolt_joint_3d.hpp"
-#include "servers/jolt_physics_server_3d.hpp"
+#include "scene/3d/physics/servers/jolt_physics_server_3d.hpp"
 
 class JoltGeneric6DOFJoint3D final : public JoltJoint3D {
 	GDCLASS_QUIET(JoltGeneric6DOFJoint3D, JoltJoint3D)

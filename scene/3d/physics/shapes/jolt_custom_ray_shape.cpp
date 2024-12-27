@@ -1,7 +1,7 @@
 #include "jolt_custom_ray_shape.hpp"
 
-#include "servers/jolt_project_settings.hpp"
-#include "spaces/jolt_query_collectors.hpp"
+#include "scene/3d/physics/servers/jolt_project_settings.hpp"
+#include "scene/3d/physics/spaces/jolt_query_collectors.hpp"
 
 namespace {
 

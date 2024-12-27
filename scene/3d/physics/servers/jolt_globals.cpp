@@ -1,9 +1,9 @@
 #include "jolt_globals.hpp"
 
-#include "objects/jolt_group_filter.hpp"
-#include "shapes/jolt_custom_double_sided_shape.hpp"
-#include "shapes/jolt_custom_ray_shape.hpp"
-#include "shapes/jolt_custom_user_data_shape.hpp"
+#include "scene/3d/physics/objects/jolt_group_filter.hpp"
+#include "scene/3d/physics/shapes/jolt_custom_double_sided_shape.hpp"
+#include "scene/3d/physics/shapes/jolt_custom_ray_shape.hpp"
+#include "scene/3d/physics/shapes/jolt_custom_user_data_shape.hpp"
 
 #ifdef GDJ_USE_MIMALLOC
 

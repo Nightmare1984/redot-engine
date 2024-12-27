@@ -1,7 +1,7 @@
 #pragma once
 
 #include "jolt_joint_impl_3d.hpp"
-#include "servers/jolt_physics_server_3d.hpp"
+#include "scene/3d/physics/servers/jolt_physics_server_3d.hpp"
 
 class JoltGeneric6DOFJointImpl3D final : public JoltJointImpl3D {
 	using Axis = Vector3::Axis;

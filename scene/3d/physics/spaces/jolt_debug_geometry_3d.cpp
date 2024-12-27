@@ -1,6 +1,6 @@
 #include "jolt_debug_geometry_3d.hpp"
 
-#include "servers/jolt_physics_server_3d.hpp"
+#include "scene/3d/physics/servers/jolt_physics_server_3d.hpp"
 #include "jolt_debug_renderer_3d.hpp"
 #include "jolt_space_3d.hpp"
 

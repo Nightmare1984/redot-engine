@@ -1,8 +1,8 @@
 #include "jolt_joint_impl_3d.hpp"
 
-#include "objects/jolt_body_impl_3d.hpp"
-#include "servers/jolt_project_settings.hpp"
-#include "spaces/jolt_space_3d.hpp"
+#include "scene/3d/physics/objects/jolt_body_impl_3d.hpp"
+#include "scene/3d/physics/servers/jolt_project_settings.hpp"
+#include "scene/3d/physics/spaces/jolt_space_3d.hpp"
 
 namespace {
 
