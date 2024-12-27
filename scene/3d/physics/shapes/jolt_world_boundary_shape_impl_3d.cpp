@@ -1,6 +1,6 @@
-#include "jolt_world_boundary_shape_impl_3d.h"
+#include "jolt_world_boundary_shape_impl_3d.hpp"
 
-#include "servers/jolt_project_settings.h"
+#include "servers/jolt_project_settings.hpp"
 
 Variant JoltWorldBoundaryShapeImpl3D::get_data() const {
 	return plane;

@@ -1,4 +1,4 @@
-#include "jolt_joint_gizmo_plugin_3d.h"
+#include "jolt_joint_gizmo_plugin_3d.hpp"
 
 #ifdef GDJ_CONFIG_EDITOR
 

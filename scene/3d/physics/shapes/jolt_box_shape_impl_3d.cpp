@@ -1,6 +1,6 @@
-#include "jolt_box_shape_impl_3d.h"
+#include "jolt_box_shape_impl_3d.hpp"
 
-#include "servers/jolt_project_settings.h"
+#include "servers/jolt_project_settings.hpp"
 
 namespace {
 

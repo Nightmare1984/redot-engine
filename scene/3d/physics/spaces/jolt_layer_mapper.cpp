@@ -1,7 +1,7 @@
-#include "jolt_layer_mapper.h"
+#include "jolt_layer_mapper.hpp"
 
-#include "servers/jolt_project_settings.h"
-#include "spaces/jolt_broad_phase_layer.h"
+#include "servers/jolt_project_settings.hpp"
+#include "spaces/jolt_broad_phase_layer.hpp"
 
 namespace {
 

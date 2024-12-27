@@ -1,8 +1,8 @@
-#include "jolt_physics_direct_body_state_3d.h"
+#include "jolt_physics_direct_body_state_3d.hpp"
 
-#include "objects/jolt_body_impl_3d.h"
-#include "spaces/jolt_physics_direct_space_state_3d.h"
-#include "spaces/jolt_space_3d.h"
+#include "objects/jolt_body_impl_3d.hpp"
+#include "spaces/jolt_physics_direct_space_state_3d.hpp"
+#include "spaces/jolt_space_3d.hpp"
 
 JoltPhysicsDirectBodyState3D::JoltPhysicsDirectBodyState3D(JoltBodyImpl3D* p_body)
 	: body(p_body) { }

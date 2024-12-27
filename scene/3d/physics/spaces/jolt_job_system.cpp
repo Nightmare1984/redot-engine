@@ -1,6 +1,6 @@
-#include "jolt_job_system.h"
+#include "jolt_job_system.hpp"
 
-#include "servers/jolt_project_settings.h"
+#include "servers/jolt_project_settings.hpp"
 
 JoltJobSystem::JoltJobSystem()
 	: JPH::JobSystemWithBarrier(JPH::cMaxPhysicsBarriers)

@@ -1,4 +1,4 @@
-#include "jolt_sphere_shape_impl_3d.h"
+#include "jolt_sphere_shape_impl_3d.hpp"
 
 Variant JoltSphereShapeImpl3D::get_data() const {
 	return radius;

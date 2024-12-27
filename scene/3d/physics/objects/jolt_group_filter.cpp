@@ -1,8 +1,8 @@
-#include "jolt_group_filter.h"
+#include "jolt_group_filter.hpp"
 
-#include "objects/jolt_area_impl_3d.h"
-#include "objects/jolt_body_impl_3d.h"
-#include "objects/jolt_object_impl_3d.h"
+#include "objects/jolt_area_impl_3d.hpp"
+#include "objects/jolt_body_impl_3d.hpp"
+#include "objects/jolt_object_impl_3d.hpp"
 
 void JoltGroupFilter::encode_object(
 	const JoltObjectImpl3D* p_object,

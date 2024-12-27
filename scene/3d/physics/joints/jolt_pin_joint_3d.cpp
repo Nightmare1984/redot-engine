@@ -1,6 +1,6 @@
-#include "jolt_pin_joint_3d.h"
+#include "jolt_pin_joint_3d.hpp"
 
-#include "servers/jolt_physics_server_3d.h"
+#include "servers/jolt_physics_server_3d.hpp"
 
 void JoltPinJoint3D::_bind_methods() {
 	BIND_METHOD(JoltPinJoint3D, get_applied_force);

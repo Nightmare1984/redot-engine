@@ -1,6 +1,6 @@
-#include "jolt_custom_double_sided_shape.h"
+#include "jolt_custom_double_sided_shape.hpp"
 
-#include "servers/jolt_project_settings.h"
+#include "servers/jolt_project_settings.hpp"
 
 namespace {
 

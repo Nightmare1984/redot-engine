@@ -1,7 +1,7 @@
-#include "jolt_generic_6dof_joint_impl_3d.h"
+#include "jolt_generic_6dof_joint_impl_3d.hpp"
 
-#include "objects/jolt_body_impl_3d.h"
-#include "spaces/jolt_space_3d.h"
+#include "objects/jolt_body_impl_3d.hpp"
+#include "spaces/jolt_space_3d.hpp"
 
 namespace {
 

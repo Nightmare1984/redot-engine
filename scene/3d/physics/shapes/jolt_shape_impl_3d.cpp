@@ -1,8 +1,8 @@
-#include "jolt_shape_impl_3d.h"
+#include "jolt_shape_impl_3d.hpp"
 
-#include "objects/jolt_shaped_object_impl_3d.h"
-#include "shapes/jolt_custom_double_sided_shape.h"
-#include "shapes/jolt_custom_user_data_shape.h"
+#include "objects/jolt_shaped_object_impl_3d.hpp"
+#include "shapes/jolt_custom_double_sided_shape.hpp"
+#include "shapes/jolt_custom_user_data_shape.hpp"
 
 namespace {
 

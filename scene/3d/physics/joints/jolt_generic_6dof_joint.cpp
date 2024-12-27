@@ -1,4 +1,4 @@
-#include "jolt_generic_6dof_joint.h"
+#include "jolt_generic_6dof_joint.hpp"
 
 namespace {
 

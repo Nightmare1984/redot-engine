@@ -1,4 +1,4 @@
-#include "jolt_debug_renderer_3d.h"
+#include "jolt_debug_renderer_3d.hpp"
 
 #ifdef JPH_DEBUG_RENDERER
 

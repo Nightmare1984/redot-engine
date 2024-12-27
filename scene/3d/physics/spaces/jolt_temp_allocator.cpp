@@ -1,6 +1,6 @@
-#include "jolt_temp_allocator.h"
+#include "jolt_temp_allocator.hpp"
 
-#include "servers/jolt_project_settings.h"
+#include "servers/jolt_project_settings.hpp"
 
 JoltTempAllocator::JoltTempAllocator()
 	: capacity((uint64_t)JoltProjectSettings::get_max_temp_memory_b())

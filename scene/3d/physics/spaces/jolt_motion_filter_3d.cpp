@@ -1,14 +1,14 @@
-#include "jolt_motion_filter_3d.h"
+#include "jolt_motion_filter_3d.hpp"
 
-#include "objects/jolt_body_impl_3d.h"
-#include "objects/jolt_object_impl_3d.h"
-#include "servers/jolt_physics_server_3d.h"
-#include "shapes/jolt_custom_motion_shape.h"
-#include "shapes/jolt_custom_ray_shape.h"
-#include "shapes/jolt_custom_shape_type.h"
-#include "shapes/jolt_shape_impl_3d.h"
-#include "spaces/jolt_broad_phase_layer.h"
-#include "spaces/jolt_space_3d.h"
+#include "objects/jolt_body_impl_3d.hpp"
+#include "objects/jolt_object_impl_3d.hpp"
+#include "servers/jolt_physics_server_3d.hpp"
+#include "shapes/jolt_custom_motion_shape.hpp"
+#include "shapes/jolt_custom_ray_shape.hpp"
+#include "shapes/jolt_custom_shape_type.hpp"
+#include "shapes/jolt_shape_impl_3d.hpp"
+#include "spaces/jolt_broad_phase_layer.hpp"
+#include "spaces/jolt_space_3d.hpp"
 
 JoltMotionFilter3D::JoltMotionFilter3D(const JoltBodyImpl3D& p_body, bool p_collide_separation_ray)
 	: physics_server(*JoltPhysicsServer3D::get_singleton())

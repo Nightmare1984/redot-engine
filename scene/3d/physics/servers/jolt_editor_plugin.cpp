@@ -1,4 +1,4 @@
-#include "jolt_editor_plugin.h"
+#include "jolt_editor_plugin.hpp"
 
 #ifdef GDJ_CONFIG_EDITOR
 

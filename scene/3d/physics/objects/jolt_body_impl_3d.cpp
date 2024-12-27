@@ -1,14 +1,14 @@
-#include "jolt_body_impl_3d.h"
+#include "jolt_body_impl_3d.hpp"
 
-#include "joints/jolt_joint_impl_3d.h"
-#include "objects/jolt_area_impl_3d.h"
-#include "objects/jolt_group_filter.h"
-#include "objects/jolt_physics_direct_body_state_3d.h"
-#include "objects/jolt_soft_body_impl_3d.h"
-#include "servers/jolt_project_settings.h"
-#include "shapes/jolt_shape_impl_3d.h"
-#include "spaces/jolt_broad_phase_layer.h"
-#include "spaces/jolt_space_3d.h"
+#include "joints/jolt_joint_impl_3d.hpp"
+#include "objects/jolt_area_impl_3d.hpp"
+#include "objects/jolt_group_filter.hpp"
+#include "objects/jolt_physics_direct_body_state_3d.hpp"
+#include "objects/jolt_soft_body_impl_3d.hpp"
+#include "servers/jolt_project_settings.hpp"
+#include "shapes/jolt_shape_impl_3d.hpp"
+#include "spaces/jolt_broad_phase_layer.hpp"
+#include "spaces/jolt_space_3d.hpp"
 
 namespace {
 

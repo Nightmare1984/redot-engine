@@ -1,9 +1,9 @@
-#include "jolt_globals.h"
+#include "jolt_globals.hpp"
 
-#include "objects/jolt_group_filter.h"
-#include "shapes/jolt_custom_double_sided_shape.h"
-#include "shapes/jolt_custom_ray_shape.h"
-#include "shapes/jolt_custom_user_data_shape.h"
+#include "objects/jolt_group_filter.hpp"
+#include "shapes/jolt_custom_double_sided_shape.hpp"
+#include "shapes/jolt_custom_ray_shape.hpp"
+#include "shapes/jolt_custom_user_data_shape.hpp"
 
 #ifdef GDJ_USE_MIMALLOC
 

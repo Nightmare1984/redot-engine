@@ -1,6 +1,6 @@
-#include "jolt_separation_ray_shape_impl_3d.h"
+#include "jolt_separation_ray_shape_impl_3d.hpp"
 
-#include "shapes/jolt_custom_ray_shape.h"
+#include "shapes/jolt_custom_ray_shape.hpp"
 
 Variant JoltSeparationRayShapeImpl3D::get_data() const {
 	Dictionary data;

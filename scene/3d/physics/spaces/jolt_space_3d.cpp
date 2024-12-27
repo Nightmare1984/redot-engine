@@ -1,16 +1,16 @@
-#include "jolt_space_3d.h"
+#include "jolt_space_3d.hpp"
 
-#include "joints/jolt_joint_impl_3d.h"
-#include "objects/jolt_area_impl_3d.h"
-#include "objects/jolt_body_impl_3d.h"
-#include "servers/jolt_physics_server_3d.h"
-#include "servers/jolt_project_settings.h"
-#include "shapes/jolt_custom_shape_type.h"
-#include "shapes/jolt_shape_impl_3d.h"
-#include "spaces/jolt_contact_listener_3d.h"
-#include "spaces/jolt_layer_mapper.h"
-#include "spaces/jolt_physics_direct_space_state_3d.h"
-#include "spaces/jolt_temp_allocator.h"
+#include "joints/jolt_joint_impl_3d.hpp"
+#include "objects/jolt_area_impl_3d.hpp"
+#include "objects/jolt_body_impl_3d.hpp"
+#include "servers/jolt_physics_server_3d.hpp"
+#include "servers/jolt_project_settings.hpp"
+#include "shapes/jolt_custom_shape_type.hpp"
+#include "shapes/jolt_shape_impl_3d.hpp"
+#include "spaces/jolt_contact_listener_3d.hpp"
+#include "spaces/jolt_layer_mapper.hpp"
+#include "spaces/jolt_physics_direct_space_state_3d.hpp"
+#include "spaces/jolt_temp_allocator.hpp"
 
 namespace {
 

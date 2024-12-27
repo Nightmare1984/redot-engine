@@ -1,4 +1,4 @@
-#include "jolt_project_settings.h"
+#include "jolt_project_settings.hpp"
 
 namespace {
 

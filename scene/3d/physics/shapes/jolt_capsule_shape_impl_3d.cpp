@@ -1,4 +1,4 @@
-#include "jolt_capsule_shape_impl_3d.h"
+#include "jolt_capsule_shape_impl_3d.hpp"
 
 Variant JoltCapsuleShapeImpl3D::get_data() const {
 	Dictionary data;

@@ -1,9 +1,9 @@
-#include "jolt_object_impl_3d.h"
+#include "jolt_object_impl_3d.hpp"
 
-#include "objects/jolt_group_filter.h"
-#include "servers/jolt_project_settings.h"
-#include "spaces/jolt_layer_mapper.h"
-#include "spaces/jolt_space_3d.h"
+#include "objects/jolt_group_filter.hpp"
+#include "servers/jolt_project_settings.hpp"
+#include "spaces/jolt_layer_mapper.hpp"
+#include "spaces/jolt_space_3d.hpp"
 
 JoltObjectImpl3D::JoltObjectImpl3D(ObjectType p_object_type)
 	: object_type(p_object_type) { }

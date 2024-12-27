@@ -1,6 +1,6 @@
-#include "jolt_body_accessor_3d.h"
+#include "jolt_body_accessor_3d.hpp"
 
-#include "spaces/jolt_space_3d.h"
+#include "spaces/jolt_space_3d.hpp"
 
 namespace {
 
